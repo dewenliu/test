@@ -1,0 +1,81 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+#all{
+	width:1160px;
+	margin:30px auto;
+	margin-top:5px;
+
+}
+
+#div4 h4,#div1{
+	float: left;
+}
+#div2,#sousuo{
+	float: right;
+}
+input{
+	height: 30px;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	height: 0px;
+	visibility: hidden;
+	clear: both;
+}
+#div4 h4{
+	background: deepskyblue;
+	padding:2px;
+	margin:5px 39px;
+}
+#div5 p,#div5 h4{
+	float:left;
+}
+li{
+	line-height: 35px;
+	list-style-position: inside; 
+}
+#div6{
+	margin-left: 620px;	
+}
+#div6 h4{
+	margin: 9px 15px;
+}
+#div6 li{
+	float: left;
+}
+#div5 p{
+	margin-top: 10px;
+}
+table,#div7 h4{
+	float: left;
+}
+#div7{
+	margin-left: 600px;
+}
+#div7 ul{
+	float: left;
+}
+#div7 h4{
+	margin: 10px 15px;
+}
+select{
+	margin: 10px 100px;
+}
+.yueshu{
+	height: 40px;
+	overflow: hidden;
+}
+ul{
+	padding-left:15px;
+}
+#div3 img{
+	position:relative;
+	top: 11px;
+}
+h4:hover,img:hover,li:hover{
+	color: red;
+	cursor: pointer;
+}
